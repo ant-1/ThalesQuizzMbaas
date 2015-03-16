@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.thales.thalesquizzmbaas.ui.listitems.QCMAnswerResultTotalRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mQCMAnswerTotalLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@android:color/black"
+    android:layout_margin="10dp">
+
+
+    <RelativeLayout
+        android:id="@+id/mQCMAnswerResultRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_margin="1px"
+        android:background="@android:color/holo_red_light"
+        android:orientation="horizontal"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/mQCMAnswerValueTextView"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/mQCMAnswerResultTextView"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" />
+</com.thales.thalesquizzmbaas.ui.listitems.QCMAnswerResultTotalRelativeLayout>
+

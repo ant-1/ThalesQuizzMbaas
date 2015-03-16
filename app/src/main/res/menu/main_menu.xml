@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.thales.thalesquizzmbaas.ui.MainMenuActivity">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/action_add"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/action_refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_start_demo"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="@string/action_start_demo"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_stop_demo"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="@string/action_stop_demo"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_disconnect"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

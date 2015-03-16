@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThalesQuizzMbaas</string>
+    <string name="action_settings">Disconnect</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="action_start_demo">Start demo</string>
+    <string name="action_stop_demo">Stop demo</string>
+    <string name="action_add">Create quizz</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- Login -->
+    <string name="waiting_start_demo">Waiting for the demo to start ! Please refresh demo is ready</string>
+    <string name="email">E-mail :</string>
+    <string name="nickname">Nickname :</string>
+    <string name="password">Password :</string>
+    <string name="password2">Password confirmation:</string>
+    <string name="do_quizz">Let\'s do some quizz</string>
+    <string name="register_log">Register and login</string>
+    <string name="or_login">Login if you already have an account</string>
+    <string name="login_empty">Username is empty</string>
+    <string name="password_empty">Password is empty</string>
+    <string name="or_register">Register if you don\'t have any account</string>
+    <string name="password_error">Your password is empty or passwords are different</string>
+    <string name="email_error">Your email is empty or badly formatted</string>
+
+    <!-- main menu -->
+    <string name="add">Add</string>
+    <string name="no_results">No results</string>
+    <string name="quizz_admin">You are admin</string>
+    <string name="quizz_play_it">Play it</string>
+
+    <!-- create quizz -->
+    <string name="quizz_name">Quizz name :</string>
+    <string name="quizz_teaser">Quizz teaser :</string>
+    <string name="quizz_name_empty">Quizz name is empty !</string>
+    <string name="teaser_empty">Teaser is empty !</string>
+    <string name="quizz_create">Create quizz :</string>
+
+    <!-- Admin Quizz-->
+    <string name="quizz_start">Start quizz</string>
+    <string name="quizz_finish">Finish quizz</string>
+    <string name="quizz_see_live_results">See live results</string>
+    <string name="quizz_saved">Quizz Saved</string>
+    <string name="quizz_stopped">Quizz stopped</string>
+    <string name="quizz_add_question">Add question</string>
+    <string name="quizz_delete_quizz">Delete quizz</string>
+    <string name="quizz_quizz_deleted">Quizz deleted</string>
+    <string name="delete_quizz">Are you sure you want to delete your quizz ?</string>
+    <string name="quizz_save_mbaas">Save MBAAS</string>
+    <string name="quizz_publish_question">Publish</string>
+    <string name="quizz_stop_question">Stop</string>
+    <string name="quizz_delete_question">Delete</string>
+    <string name="quizz_results">results</string>
+    <string name="cant_stop_live">C\'ant stop live questions !</string>
+
+    <!-- Add question-->
+    <string name="question_text">Question</string>
+    <string name="question_answer">Answer</string>
+    <string name="question_add_answer">Add answer</string>
+    <string name="question_add">Add Question</string>
+    <string name="question_correct_answer">Ok</string>
+    <string name="question_place_to_find">Place to find</string>
+    <string-array name="questions_types_array">
+        <item>Free answer</item>
+        <item>QMC</item>
+        <item>StreetView question</item>
+    </string-array>
+
+    <!-- play quizz -->
+    <string name="quizz_waiting">Waiting for the next question ...</string>
+    <string name="quizz_finished">The quizz is over</string>
+    <string name="quizz_question_finished">Question is over</string>
+    <string name="quizz_question_answered">Answer saved</string>
+    <string name="quizz_question_pick_place">Please pick a place on the map</string>
+    <string name="quizz_question_enter_answer">Please enter an answer</string>
+    <string name="quizz_save_question">Save answer</string>
+    <string name="quizz_participants">participants</string>
+    <string name="quizz_proposed_place">Proposed place</string>
+    <string name="quizz_show_result">Show results</string>
+
+
+</resources>

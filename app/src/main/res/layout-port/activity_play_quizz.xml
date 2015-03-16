@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.thales.thalesquizzmbaas.ui.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/mWaitingLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quizz_waiting" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mAnswerQuestionLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mQuestionTextDisplayTextView"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/mAnswersQuestionLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" />
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/mAnswerFreeQuestionLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mFreeQuestionTextDisplayTextView"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/mAnswerFreeQuestionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="4"
+            android:maxLines="5" />
+
+        <Button
+            android:id="@+id/mAnswerFreeQuestionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quizz_save_question" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mStreetViewQuestionLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mStreetViewQuestionTextView"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.google.android.gms.maps.StreetViewPanoramaView
+                android:id="@+id/mStreetView"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                class="com.google.android.gms.maps.StreetViewPanoramaView" />
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mMapView"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:name="com.google.android.gms.maps.MapView" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/mAnswerMapQuestionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quizz_save_question" />
+    </LinearLayout>
+</LinearLayout>

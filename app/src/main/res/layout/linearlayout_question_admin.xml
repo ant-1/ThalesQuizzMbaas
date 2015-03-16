@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thales.thalesquizzmbaas.ui.listitems.QuestionAdminLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/mQuestionTextTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mPublishQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/quizz_publish_question" />
+
+        <Button
+            android:id="@+id/mDeleteQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/quizz_delete_question" />
+
+        <Button
+            android:id="@+id/mStopQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/quizz_stop_question" />
+    </LinearLayout>
+
+
+</com.thales.thalesquizzmbaas.ui.listitems.QuestionAdminLinearLayout>
