@@ -1,4 +1,4 @@
-LiveQuizzMbaas
+ThalesQuizzMbaas
 ==============
 
 ## A live quizz POC android app made with the help of two MBAAS Kinvey and Firebase.
